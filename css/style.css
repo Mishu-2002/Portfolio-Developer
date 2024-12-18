@@ -1,0 +1,183 @@
+.secondery-bg {
+    background-color: #c36828;
+}
+
+.container {
+    background-color: #FFF8F3;
+    background-image: url("../public/developer.png"), url("../public/header_bg.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+}
+
+.secondery-bg {
+    background-color: #FFF8F3;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+
+.navbar-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar-link li {
+    margin-right: 50px;
+}
+
+.navbar-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    background-color: #FD6E0A;
+    border: none;
+    color: wheat;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.navbar-title {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#sub-title {
+    color: #FD6E0A;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 700px;
+}
+
+.content-name {
+    font-size: 85px;
+    font-weight: 500px;
+}
+
+.dsc {
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.button-box button {
+    margin: 0 10px 0 10px;
+    background-color: #FD6E0A;
+    color: white
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.about {
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.content-box {
+    background-color: rgb(241, 227, 201);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.det {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dataline {
+    display: flex;
+}
+
+.det div {
+    line-height: 0.8px;
+}
+
+.det div h3 {
+    font-weight: 100px;
+}
+
+.Skill {
+    padding: 10px 100px;
+    background-color: wheat;
+}
+
+.Skill-box {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.box-item {
+    height: 300px;
+    width: 200px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skill-des {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education {
+    width: 50%;
+    padding: 30px;
+}
+
+.education-title {
+    margin: 20px 0px;
+    line-height: 0.5px;
+}
+
+.education-box {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.education-item {
+    line-height: 1;
+}
